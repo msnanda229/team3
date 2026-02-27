@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    margin-top: 20px;
+}
+.header>img{
+    width: 120px;
+    margin-left: 40px;
+}
+.menu{
+    display: flex;
+    gap: 30px;
+    margin-right: 10%;
+    margin-top: 10px;
+    
+}
+.menu>a{
+    color: rgb(247, 120, 120);
+font-size: 18px;
+text-decoration: none;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.page{
+    background-color: rgb(23, 179, 207);
+}
+.order-page {
+    width: 80%;
+    margin: 40px auto;
+    color: #241111;
+}
+
+.order-page h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.card {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.card-title {
+    position: absolute;
+    top: -12px;
+    left: 20px;
+    background-color: #4db6cf;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+
+.selected-food {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.selected-food img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.food-info h2 {
+    margin-bottom: 8px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.food-info label {
+    font-weight: bold;
+}
+
+.food-info input {
+    display: block;
+    width: 400px;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.delivery-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.delivery-form label {
+    font-weight: bold;
+}
+
+.delivery-form input,
+.delivery-form textarea {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    width: 100%;
+}
+
+.delivery-form textarea {
+    height: 100px;
+    resize: none;
+}
